@@ -1,0 +1,221 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\Code\\IltaWebApp\\IltaWebApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\IltaWebApp.bundle.scp.css",
+      "PackagePath": "staticwebassets\\IltaWebApp.bundle.scp.css"
+    },
+    {
+      "Id": "E:\\Code\\IltaWebApp\\IltaWebApp\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "E:\\Code\\IltaWebApp\\IltaWebApp\\wwwroot\\art\\angelcats.gif",
+      "PackagePath": "staticwebassets\\art\\angelcats.gif"
+    },
+    {
+      "Id": "E:\\Code\\IltaWebApp\\IltaWebApp\\wwwroot\\art\\computer 1-1.gif",
+      "PackagePath": "staticwebassets\\art\\computer 1-1.gif"
+    },
+    {
+      "Id": "E:\\Code\\IltaWebApp\\IltaWebApp\\wwwroot\\art\\cow 1-1.gif",
+      "PackagePath": "staticwebassets\\art\\cow 1-1.gif"
+    },
+    {
+      "Id": "E:\\Code\\IltaWebApp\\IltaWebApp\\wwwroot\\art\\heart 1_1.gif",
+      "PackagePath": "staticwebassets\\art\\heart 1_1.gif"
+    },
+    {
+      "Id": "E:\\Code\\IltaWebApp\\IltaWebApp\\wwwroot\\art\\house 16-9.gif",
+      "PackagePath": "staticwebassets\\art\\house 16-9.gif"
+    },
+    {
+      "Id": "E:\\Code\\IltaWebApp\\IltaWebApp\\wwwroot\\art\\illustration 1.gif",
+      "PackagePath": "staticwebassets\\art\\illustration 1.gif"
+    },
+    {
+      "Id": "E:\\Code\\IltaWebApp\\IltaWebApp\\wwwroot\\art\\illustration 2.gif",
+      "PackagePath": "staticwebassets\\art\\illustration 2.gif"
+    },
+    {
+      "Id": "E:\\Code\\IltaWebApp\\IltaWebApp\\wwwroot\\art\\illustration 3.gif",
+      "PackagePath": "staticwebassets\\art\\illustration 3.gif"
+    },
+    {
+      "Id": "E:\\Code\\IltaWebApp\\IltaWebApp\\wwwroot\\art\\illustration 4.gif",
+      "PackagePath": "staticwebassets\\art\\illustration 4.gif"
+    },
+    {
+      "Id": "E:\\Code\\IltaWebApp\\IltaWebApp\\wwwroot\\art\\illustration 5.gif",
+      "PackagePath": "staticwebassets\\art\\illustration 5.gif"
+    },
+    {
+      "Id": "E:\\Code\\IltaWebApp\\IltaWebApp\\wwwroot\\art\\illustration6.gif",
+      "PackagePath": "staticwebassets\\art\\illustration6.gif"
+    },
+    {
+      "Id": "E:\\Code\\IltaWebApp\\IltaWebApp\\wwwroot\\art\\november 16-9.gif",
+      "PackagePath": "staticwebassets\\art\\november 16-9.gif"
+    },
+    {
+      "Id": "E:\\Code\\IltaWebApp\\IltaWebApp\\wwwroot\\art\\oppossum.gif",
+      "PackagePath": "staticwebassets\\art\\oppossum.gif"
+    },
+    {
+      "Id": "E:\\Code\\IltaWebApp\\IltaWebApp\\wwwroot\\art\\pathfinder.png",
+      "PackagePath": "staticwebassets\\art\\pathfinder.png"
+    },
+    {
+      "Id": "E:\\Code\\IltaWebApp\\IltaWebApp\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\Code\\IltaWebApp\\IltaWebApp\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "E:\\Code\\IltaWebApp\\IltaWebApp\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "E:\\Code\\IltaWebApp\\IltaWebApp\\wwwroot\\img\\ai.gif",
+      "PackagePath": "staticwebassets\\img\\ai.gif"
+    },
+    {
+      "Id": "E:\\Code\\IltaWebApp\\IltaWebApp\\wwwroot\\img\\aseprite.gif",
+      "PackagePath": "staticwebassets\\img\\aseprite.gif"
+    },
+    {
+      "Id": "E:\\Code\\IltaWebApp\\IltaWebApp\\wwwroot\\img\\bg.gif",
+      "PackagePath": "staticwebassets\\img\\bg.gif"
+    },
+    {
+      "Id": "E:\\Code\\IltaWebApp\\IltaWebApp\\wwwroot\\img\\button1.gif",
+      "PackagePath": "staticwebassets\\img\\button1.gif"
+    },
+    {
+      "Id": "E:\\Code\\IltaWebApp\\IltaWebApp\\wwwroot\\img\\button2.gif",
+      "PackagePath": "staticwebassets\\img\\button2.gif"
+    },
+    {
+      "Id": "E:\\Code\\IltaWebApp\\IltaWebApp\\wwwroot\\img\\colors.gif",
+      "PackagePath": "staticwebassets\\img\\colors.gif"
+    },
+    {
+      "Id": "E:\\Code\\IltaWebApp\\IltaWebApp\\wwwroot\\img\\firefox.gif",
+      "PackagePath": "staticwebassets\\img\\firefox.gif"
+    },
+    {
+      "Id": "E:\\Code\\IltaWebApp\\IltaWebApp\\wwwroot\\img\\icon.png",
+      "PackagePath": "staticwebassets\\img\\icon.png"
+    },
+    {
+      "Id": "E:\\Code\\IltaWebApp\\IltaWebApp\\wwwroot\\img\\instagram.png",
+      "PackagePath": "staticwebassets\\img\\instagram.png"
+    },
+    {
+      "Id": "E:\\Code\\IltaWebApp\\IltaWebApp\\wwwroot\\img\\japanese.png",
+      "PackagePath": "staticwebassets\\img\\japanese.png"
+    },
+    {
+      "Id": "E:\\Code\\IltaWebApp\\IltaWebApp\\wwwroot\\img\\linux.gif",
+      "PackagePath": "staticwebassets\\img\\linux.gif"
+    },
+    {
+      "Id": "E:\\Code\\IltaWebApp\\IltaWebApp\\wwwroot\\img\\magic.gif",
+      "PackagePath": "staticwebassets\\img\\magic.gif"
+    },
+    {
+      "Id": "E:\\Code\\IltaWebApp\\IltaWebApp\\wwwroot\\img\\milktea.gif",
+      "PackagePath": "staticwebassets\\img\\milktea.gif"
+    },
+    {
+      "Id": "E:\\Code\\IltaWebApp\\IltaWebApp\\wwwroot\\img\\neocities.gif",
+      "PackagePath": "staticwebassets\\img\\neocities.gif"
+    },
+    {
+      "Id": "E:\\Code\\IltaWebApp\\IltaWebApp\\wwwroot\\img\\pixeljoint.png",
+      "PackagePath": "staticwebassets\\img\\pixeljoint.png"
+    },
+    {
+      "Id": "E:\\Code\\IltaWebApp\\IltaWebApp\\wwwroot\\img\\responsive.png",
+      "PackagePath": "staticwebassets\\img\\responsive.png"
+    },
+    {
+      "Id": "E:\\Code\\IltaWebApp\\IltaWebApp\\wwwroot\\img\\retroanime.gif",
+      "PackagePath": "staticwebassets\\img\\retroanime.gif"
+    },
+    {
+      "Id": "E:\\Code\\IltaWebApp\\IltaWebApp\\wwwroot\\img\\tags.png",
+      "PackagePath": "staticwebassets\\img\\tags.png"
+    },
+    {
+      "Id": "E:\\Code\\IltaWebApp\\IltaWebApp\\wwwroot\\img\\temp.png",
+      "PackagePath": "staticwebassets\\img\\temp.png"
+    },
+    {
+      "Id": "E:\\Code\\IltaWebApp\\IltaWebApp\\wwwroot\\img\\threads.png",
+      "PackagePath": "staticwebassets\\img\\threads.png"
+    },
+    {
+      "Id": "E:\\Code\\IltaWebApp\\IltaWebApp\\wwwroot\\img\\tiktok.png",
+      "PackagePath": "staticwebassets\\img\\tiktok.png"
+    },
+    {
+      "Id": "E:\\Code\\IltaWebApp\\IltaWebApp\\wwwroot\\img\\tumblr.png",
+      "PackagePath": "staticwebassets\\img\\tumblr.png"
+    },
+    {
+      "Id": "E:\\Code\\IltaWebApp\\IltaWebApp\\wwwroot\\img\\twitter.png",
+      "PackagePath": "staticwebassets\\img\\twitter.png"
+    },
+    {
+      "Id": "E:\\Code\\IltaWebApp\\IltaWebApp\\wwwroot\\img\\ublock.png",
+      "PackagePath": "staticwebassets\\img\\ublock.png"
+    },
+    {
+      "Id": "E:\\Code\\IltaWebApp\\IltaWebApp\\wwwroot\\img\\wikipedia.gif",
+      "PackagePath": "staticwebassets\\img\\wikipedia.gif"
+    },
+    {
+      "Id": "E:\\Code\\IltaWebApp\\IltaWebApp\\wwwroot\\img\\yumenikki.gif",
+      "PackagePath": "staticwebassets\\img\\yumenikki.gif"
+    },
+    {
+      "Id": "E:\\Code\\IltaWebApp\\IltaWebApp\\wwwroot\\journal\\april2024.png",
+      "PackagePath": "staticwebassets\\journal\\april2024.png"
+    },
+    {
+      "Id": "E:\\Code\\IltaWebApp\\IltaWebApp\\wwwroot\\journal\\february2024.png",
+      "PackagePath": "staticwebassets\\journal\\february2024.png"
+    },
+    {
+      "Id": "E:\\Code\\IltaWebApp\\IltaWebApp\\wwwroot\\journal\\january2024.png",
+      "PackagePath": "staticwebassets\\journal\\january2024.png"
+    },
+    {
+      "Id": "E:\\Code\\IltaWebApp\\IltaWebApp\\wwwroot\\journal\\march2024.png",
+      "PackagePath": "staticwebassets\\journal\\march2024.png"
+    },
+    {
+      "Id": "E:\\Code\\IltaWebApp\\IltaWebApp\\wwwroot\\journal\\may2024.png",
+      "PackagePath": "staticwebassets\\journal\\may2024.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.IltaWebApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.IltaWebApp.props",
+      "PackagePath": "build\\IltaWebApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.IltaWebApp.props",
+      "PackagePath": "buildMultiTargeting\\IltaWebApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.IltaWebApp.props",
+      "PackagePath": "buildTransitive\\IltaWebApp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
