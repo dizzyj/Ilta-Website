@@ -1,16 +1,32 @@
 ﻿
-<div class="sidebar" onclick="document.querySelector('.navbar-toggler').click()">
+<div class="sidebar" >
     <img src="img/icon.png" class="sidebar-icon">
     <p></p>
     <h2><br>ilta222</h2>
     <nav class="flex-column">
+        <AuthorizeView>
+            <NotAuthorized>
+                <a href="/login">Login</a>
+                <a href="/sign_up">Sign Up</a>
+            </NotAuthorized>
+            <Authorized>
+                <a href="/logout">Log out</a>
+            </Authorized>
+        </AuthorizeView>
         <div class="sidebar-links">
             <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
                 <i class="iconsax" icon-name="picture"></i>portfolio
             </NavLink>
-            <NavLink class="nav-link" href="shop" Match="NavLinkMatch.All">
-                <i class="iconsax" icon-name="picture"></i>Shop
-            </NavLink>
+            <AuthorizeView Roles = "Administrator, User">
+                <Authorized>
+                    <NavLink class="nav-link" href="addblog" Match="NavLinkMatch.All">
+                        <i class="iconsax" icon-name="picture"></i>Manage Blogs
+                    </NavLink>
+                    <NavLink class="nav-link" href="shop" Match="NavLinkMatch.All">
+                    <i class="iconsax" icon-name="picture"></i>Shop
+                    </NavLink>
+                </Authorized>
+            </AuthorizeView>
             <NavLink class="nav-link" href="about" Match="NavLinkMatch.All">
                 <i class="iconsax" icon-name="picture"></i>About
             </NavLink>
@@ -23,6 +39,7 @@
             <NavLink class="nav-link" href="contact" Match="NavLinkMatch.All">
                 <i class="iconsax" icon-name="picture"></i>Contact
             </NavLink>
+            
         </div>
     </nav>
    

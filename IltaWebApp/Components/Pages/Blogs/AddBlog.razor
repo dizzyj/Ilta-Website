@@ -1,0 +1,79 @@
+﻿@page "/addblog"
+@using IltaWebApp.Models.Entities
+@using IltaWebApp.Models.ViewModel
+@using System.Net.Http.Json
+@using Newtonsoft.Json
+@using System.Text
+@rendermode InteractiveServer
+@inject NavigationManager NavigationManager
+@inject HttpClient HttpClient
+
+<h3>Create Blog</h3>
+<EditForm FormName="CreateBlogForm" Model="@model" OnSubmit="Submit">
+    <div>
+        <label>
+            Image URL
+            <InputText @bind-Value="model.ImgUrl" style="width:500px"/>
+        </label>
+        <label>
+            Blog Text
+            <InputTextArea @bind-Value="model.Text" style="width: 500px" />
+        </label>
+        <button type="submit" style="margin-top:3px">Submit</button>
+    </div>
+    
+</EditForm>
+<div class="con-content" style="height: 175px; top: 325px">
+	@foreach (var blog in blogs)
+	{
+        <div class="connection">
+            <div class="muse-header">
+                <img src=@blog.ImageUrl />
+                <div class="muse-name">
+                    <b>
+                        @blog.CreatedAt.ToString("MMMM")
+                    </b>
+                    <span>@blog.CreatedAt.Year</span>
+                    <button type="button" @onclick="() =>Edit(blog.Id)">Edit</button>
+                    <button type="button" @onclick="() =>Delete(blog.Id)">Delete</button>
+                </div>
+            </div>
+            <div class="muse-info">
+                @blog.Text
+            </div>
+        </div>
+	}
+</div>
+
+
+
+
+@code {
+    [SupplyParameterFromForm]
+    private BlogPostViewModel? model { get; set; }
+    List<BlogPost> blogs = new();
+    private async Task Submit()
+    {
+        var content = new StringContent(JsonConvert.SerializeObject(model), Encoding.UTF8, "application/json");
+
+        var request = await HttpClient.PostAsync(NavigationManager.BaseUri + "blog", content);
+        NavigationManager.NavigateTo(NavigationManager.BaseUri+"addblog", true);
+        return ;
+    }
+    private void Edit(int i)
+    {
+        NavigationManager.NavigateTo(NavigationManager.BaseUri + "editblog/" + i, true);
+    }
+    private async void Delete(int i)
+    {
+        var request = await HttpClient.DeleteAsync(NavigationManager.BaseUri + "blog/" + i.ToString());
+        NavigationManager.NavigateTo(NavigationManager.BaseUri + "addblog", true);
+    }
+    protected override async Task OnInitializedAsync()
+    {
+        model = new();
+        blogs = await HttpClient.GetFromJsonAsync<List<BlogPost>>(NavigationManager.BaseUri + "blog");
+
+	}
+
+}

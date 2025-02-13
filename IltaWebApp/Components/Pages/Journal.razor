@@ -1,5 +1,5 @@
 ﻿@page "/journal"
-@using IltaWebApp.Models
+@using IltaWebApp.Models.Entities
 @inject HttpClient HttpClient
 @inject NavigationManager NavigationManager
 
@@ -14,7 +14,7 @@
             {
                 <div class="connection">
                     <div class="muse-header">
-                        <img src="@blog.ImageUrl" />
+                        <img src=@blog.ImageUrl />
                         <div class="muse-name">
                             <b>
                                 @blog.CreatedAt.ToString("MMMM")
@@ -33,9 +33,10 @@
 </div>
 
 @code {
+
     List<BlogPost> blogs = new();
     protected override async Task OnInitializedAsync()
     {
-        blogs = await HttpClient.GetFromJsonAsync<List<BlogPost>>(NavigationManager.BaseUri + "blogs");
+        blogs = await HttpClient.GetFromJsonAsync<List<BlogPost>>(NavigationManager.BaseUri + "blog");
     }
 }

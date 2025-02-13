@@ -1,9 +1,9 @@
-﻿using IltaWebApp.Models;
+﻿using IltaWebApp.Models.Entities;
 namespace IltaWebApp.Data
 {
     public static class SeedData
     {
-        public static void Initialize(BlogPostContext db)
+        public static void Initialize(AppDbContext db)
         {
             var blogs = new BlogPost[]
             {

@@ -1,0 +1,1 @@
+This is a basic web application for my wife. It functions as a portfolio, a blog, and a shop to where customers can purchase art comissions. 

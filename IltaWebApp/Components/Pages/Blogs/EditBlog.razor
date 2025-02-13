@@ -1,0 +1,49 @@
+﻿@page "/editblog/{BlogID:int}"
+@using IltaWebApp.Models.Entities
+@using IltaWebApp.Models.ViewModel
+@using Newtonsoft.Json
+@using System.Text
+@rendermode InteractiveServer
+@inject NavigationManager NavigationManager
+@inject HttpClient HttpClient
+
+<h1>Edit Blog</h1>
+<EditForm FormName="EditeBlogForm" Model="@model" OnSubmit="Submit">
+    <div>
+        <label>
+            Image URL
+            <InputText @bind-Value="model.ImgUrl" />
+        </label>
+        <label>
+            Blog Text
+            <InputTextArea @bind-Value="model.Text" />
+        </label>
+        <button type="submit">Edit blog</button>
+    </div>
+
+</EditForm>
+
+@code {
+    [Parameter]
+    public int BlogId { get; set; }
+    [SupplyParameterFromForm]
+    private BlogPostViewModel? model { get; set; }
+    BlogPost blog;
+
+    protected override async Task OnInitializedAsync()
+    {
+        model = new();
+        blog = await HttpClient.GetFromJsonAsync<BlogPost>(NavigationManager.BaseUri + "blog/"+BlogId.ToString());
+        model.Text = blog.Text;
+        model.ImgUrl = blog.ImageUrl;
+
+    }
+    private async Task Submit()
+    {
+        var content = new StringContent(JsonConvert.SerializeObject(model), Encoding.UTF8, "application/json");
+        // Console.WriteLine("Model: "+model.Text.ToString());
+
+        var request = await HttpClient.PutAsync(NavigationManager.BaseUri + "blog/" +BlogId, content);
+        NavigationManager.NavigateTo(NavigationManager.BaseUri + "addblog", true);
+    }
+}
